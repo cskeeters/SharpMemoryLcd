@@ -38,3 +38,8 @@ GND     | GN
 13      | SCLK
 
 None of the other pins on the breakout board need to be connected.
+
+Demo
+----
+
+<img width="600" src="SharpMemoryLcdChadDemo.jpg"/>
