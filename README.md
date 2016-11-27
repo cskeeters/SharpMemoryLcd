@@ -10,13 +10,16 @@ For creating halftone images, see [halftone2src](https://github.com/cskeeters/ha
 Installation
 ------------
 
-    cd ~/Desktop/Arduino/libraries
+    mkdir -p ~/Documents/Arduino/libraries
+    cd ~/Documents/Arduino/libraries
     git clone https://github.com/adafruit/Adafruit-GFX-Library
     git clone https://github.com/cskeeters/SharpMemoryLcd
     git clone https://github.com/cskeeters/SharpMemoryLcdSampleImages
-    cp SharpMemoryLcd/test/SharpMemoryLcdTest.ino ~/Desktop/Arduino
 
-Then just open SharpMemoryLcdTest.ino with the Arduino SDK, compile, and upload.
+    mkdir -p ~/Documents/Arduino/SharpMemoryLcdTest
+    cp SharpMemoryLcd/test/SharpMemoryLcdTest.ino ~/Documents/Arduino/SharpMemoryLcdTest
+
+Then just open SharpMemoryLcdTest/SharpMemoryLcdTest.ino with the Arduino SDK, compile, and upload.
 
 Wiring
 ------
